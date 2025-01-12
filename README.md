@@ -1,3 +1,3 @@
 # proiect_arheologie
 
-Modelul pe care este testat este DistilBert
+Modelul pe care este testat este DistilBERT
