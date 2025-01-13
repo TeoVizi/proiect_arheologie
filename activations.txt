@@ -1,0 +1,979 @@
+Start Logits:
+Quantized Data: [[ -80  -81 -115 -100 -105  127  -85  -51  -59  -96 -115 -107  -76 -117
+   -82  -87  -67  -44  -90  -59  -95  -37  -93 -113  -36  -82   96   19
+   126  101  -24   81   57  -85]]
+Scale: 15.90402603149414 | Zero Point: -9
+
+End Logits:
+Quantized Data: [[ -27  -89 -123 -126  -97 -123  -26  -89 -112 -112 -108 -128 -100  -82
+  -116 -101  127 -117 -125  -36  -90 -110 -101 -108  -50  -21  -53  -49
+   -29   38  -39  -24  126  -26]]
+Scale: 15.018062591552734 | Zero Point: -24
+
+Layer: distilbert.embeddings.word_embeddings
+Quantized Activation: [[[43 35 34 ... 46 39 40]
+  [41 38 31 ... 39 28 23]
+  [34 34 40 ... 38 34 39]
+  ...
+  [37 39 39 ... 36 35 40]
+  [32 31 26 ... 36 30 30]
+  [34 36 36 ... 33 38 36]]]
+Scale: 150.65895080566406 | Zero Point: 37
+
+Layer: distilbert.embeddings.position_embeddings
+Quantized Activation: [[[19 12 10 ... 16 16 18]
+  [17 16 13 ... 20 21 15]
+  [14 16 14 ... 18 19 15]
+  ...
+  [14 16 18 ... 16 15 15]
+  [14 14 17 ... 14 17 15]
+  [17 13 16 ... 13 16 15]]]
+Scale: 152.18234252929688 | Zero Point: 16
+
+Layer: distilbert.embeddings.LayerNorm
+Quantized Activation: [[[77 64 63 ... 72 69 71]
+  [92 79 48 ... 88 61 19]
+  [58 65 80 ... 80 72 77]
+  ...
+  [71 82 83 ... 66 63 79]
+  [62 60 57 ... 71 64 59]
+  [63 59 67 ... 52 70 59]]]
+Scale: 23.709320068359375 | Zero Point: 68
+
+Layer: distilbert.embeddings.dropout
+Quantized Activation: [[[77 64 63 ... 72 69 71]
+  [92 79 48 ... 88 61 19]
+  [58 65 80 ... 80 72 77]
+  ...
+  [71 82 83 ... 66 63 79]
+  [62 60 57 ... 71 64 59]
+  [63 59 67 ... 52 70 59]]]
+Scale: 23.709320068359375 | Zero Point: 68
+
+Layer: distilbert.embeddings
+Quantized Activation: [[[77 64 63 ... 72 69 71]
+  [92 79 48 ... 88 61 19]
+  [58 65 80 ... 80 72 77]
+  ...
+  [71 82 83 ... 66 63 79]
+  [62 60 57 ... 71 64 59]
+  [63 59 67 ... 52 70 59]]]
+Scale: 23.709320068359375 | Zero Point: 68
+
+Layer: distilbert.transformer.layer.0.attention.q_lin
+Quantized Activation: [[[  7   1 -16 ... -24   3 -14]
+  [  6  21 -10 ...  45   9 -16]
+  [ -3  22   4 ...  -3  20 -21]
+  ...
+  [ 21  -6   9 ... -14  31 -12]
+  [  8  -1   3 ... -36  26 -21]
+  [  7 -14  -1 ... -21  21  -5]]]
+Scale: 22.833965301513672 | Zero Point: 5
+
+Layer: distilbert.transformer.layer.0.attention.k_lin
+Quantized Activation: [[[  6 -20 -12 ... -19 -18  -8]
+  [ -1 -21 -16 ...  -6 -27 -52]
+  [ 10 -26  18 ... -50  -8 -47]
+  ...
+  [-22  -3  17 ... -12  -1 -49]
+  [ -3 -17  -9 ... -43   6 -22]
+  [-28  12 -11 ...  -2 -20 -15]]]
+Scale: 21.44871711730957 | Zero Point: -14
+
+Layer: distilbert.transformer.layer.0.attention.v_lin
+Quantized Activation: [[[ 33   0 -10 ...  -4  -1  -3]
+  [  7  21 -18 ...  -9 -34  10]
+  [-55  33  27 ... -14   7   8]
+  ...
+  [-45  -6  -8 ... -29  -4  -5]
+  [-18  -1  10 ... -29  35  18]
+  [ -5 -13   6 ...  -2   7  -1]]]
+Scale: 24.99275016784668 | Zero Point: -3
+
+Layer: distilbert.transformer.layer.0.attention.out_lin
+Quantized Activation: [[[65 62 66 ... 69 63 68]
+  [69 67 65 ... 64 69 69]
+  [65 77 67 ... 67 57 61]
+  ...
+  [73 68 82 ... 58 73 61]
+  [75 69 75 ... 63 70 59]
+  [65 63 76 ... 56 66 63]]]
+Scale: 11.755478858947754 | Zero Point: 67
+
+Layer: distilbert.embeddings.word_embeddings
+Quantized Activation: [[[43 35 34 ... 46 39 40]
+  [41 38 31 ... 39 28 23]
+  [34 34 40 ... 38 34 39]
+  ...
+  [37 39 39 ... 36 35 40]
+  [32 31 26 ... 36 30 30]
+  [34 36 36 ... 33 38 36]]]
+Scale: 150.65895080566406 | Zero Point: 37
+
+Layer: distilbert.embeddings.position_embeddings
+Quantized Activation: [[[19 12 10 ... 16 16 18]
+  [17 16 13 ... 20 21 15]
+  [14 16 14 ... 18 19 15]
+  ...
+  [14 16 18 ... 16 15 15]
+  [14 14 17 ... 14 17 15]
+  [17 13 16 ... 13 16 15]]]
+Scale: 152.18234252929688 | Zero Point: 16
+
+Layer: distilbert.embeddings.LayerNorm
+Quantized Activation: [[[77 64 63 ... 72 69 71]
+  [92 79 48 ... 88 61 19]
+  [58 65 80 ... 80 72 77]
+  ...
+  [71 82 83 ... 66 63 79]
+  [62 60 57 ... 71 64 59]
+  [63 59 67 ... 52 70 59]]]
+Scale: 23.709320068359375 | Zero Point: 68
+
+Layer: distilbert.embeddings.dropout
+Quantized Activation: [[[77 64 63 ... 72 69 71]
+  [92 79 48 ... 88 61 19]
+  [58 65 80 ... 80 72 77]
+  ...
+  [71 82 83 ... 66 63 79]
+  [62 60 57 ... 71 64 59]
+  [63 59 67 ... 52 70 59]]]
+Scale: 23.709320068359375 | Zero Point: 68
+
+Layer: distilbert.embeddings
+Quantized Activation: [[[77 64 63 ... 72 69 71]
+  [92 79 48 ... 88 61 19]
+  [58 65 80 ... 80 72 77]
+  ...
+  [71 82 83 ... 66 63 79]
+  [62 60 57 ... 71 64 59]
+  [63 59 67 ... 52 70 59]]]
+Scale: 23.709320068359375 | Zero Point: 68
+
+Layer: distilbert.transformer.layer.0.attention.q_lin
+Quantized Activation: [[[  7   1 -16 ... -24   3 -14]
+  [  6  21 -10 ...  45   9 -16]
+  [ -3  22   4 ...  -3  20 -21]
+  ...
+  [ 21  -6   9 ... -14  31 -12]
+  [  8  -1   3 ... -36  26 -21]
+  [  7 -14  -1 ... -21  21  -5]]]
+Scale: 22.833965301513672 | Zero Point: 5
+
+Layer: distilbert.transformer.layer.0.attention.k_lin
+Quantized Activation: [[[  6 -20 -12 ... -19 -18  -8]
+  [ -1 -21 -16 ...  -6 -27 -52]
+  [ 10 -26  18 ... -50  -8 -47]
+  ...
+  [-22  -3  17 ... -12  -1 -49]
+  [ -3 -17  -9 ... -43   6 -22]
+  [-28  12 -11 ...  -2 -20 -15]]]
+Scale: 21.44871711730957 | Zero Point: -14
+
+Layer: distilbert.transformer.layer.0.attention.v_lin
+Quantized Activation: [[[ 33   0 -10 ...  -4  -1  -3]
+  [  7  21 -18 ...  -9 -34  10]
+  [-55  33  27 ... -14   7   8]
+  ...
+  [-45  -6  -8 ... -29  -4  -5]
+  [-18  -1  10 ... -29  35  18]
+  [ -5 -13   6 ...  -2   7  -1]]]
+Scale: 24.99275016784668 | Zero Point: -3
+
+Layer: distilbert.transformer.layer.0.attention.out_lin
+Quantized Activation: [[[65 62 66 ... 69 63 68]
+  [69 67 65 ... 64 69 69]
+  [65 77 67 ... 67 57 61]
+  ...
+  [73 68 82 ... 58 73 61]
+  [75 69 75 ... 63 70 59]
+  [65 63 76 ... 56 66 63]]]
+Scale: 11.755478858947754 | Zero Point: 67
+
+Layer: distilbert.transformer.layer.0.attention | Output Index: 0
+Quantized Activation: [[[65 62 66 ... 69 63 68]
+  [69 67 65 ... 64 69 69]
+  [65 77 67 ... 67 57 61]
+  ...
+  [73 68 82 ... 58 73 61]
+  [75 69 75 ... 63 70 59]
+  [65 63 76 ... 56 66 63]]]
+Scale: 11.755478858947754 | Zero Point: 67
+
+Layer: distilbert.transformer.layer.0.sa_layer_norm
+Quantized Activation: [[[114 110 110 ... 113 111 112]
+  [117 114 108 ... 114 111 104]
+  [111 114 113 ... 114 110 111]
+  ...
+  [116 114 118 ... 109 113 111]
+  [115 111 112 ... 112 112 108]
+  [112 110 113 ... 108 112 109]]]
+Scale: 3.7478883266448975 | Zero Point: 112
+
+Layer: distilbert.transformer.layer.0.ffn.lin1
+Quantized Activation: [[[-27 -25 -37 ... -32 -27 -26]
+  [-25 -22 -33 ... -20 -31 -23]
+  [-20 -29 -35 ... -15 -22 -14]
+  ...
+  [-23 -21 -28 ... -22 -24 -10]
+  [-21 -31 -33 ... -15 -26  -5]
+  [-28 -23 -33 ... -26 -27 -28]]]
+Scale: 8.161170959472656 | Zero Point: -8
+
+Layer: distilbert.transformer.layer.0.ffn.activation
+Quantized Activation: [[[-126 -127 -126 ... -126 -126 -126]
+  [-127 -127 -126 ... -128 -126 -127]
+  [-128 -126 -126 ...  127 -127  127]
+  ...
+  [-127 -127 -126 ... -127 -127 -128]
+  [-127 -126 -126 ...  127 -126 -122]
+  [-126 -127 -126 ... -127 -126 -126]]]
+Scale: 15.262166976928711 | Zero Point: -126
+
+Layer: distilbert.transformer.layer.0.ffn.lin2
+Quantized Activation: [[[110 111 112 ... 112 112 110]
+  [109 111 107 ... 114 106 105]
+  [111 108 116 ... 108 112 112]
+  ...
+  [111 113 115 ... 108 109 115]
+  [110 110 111 ... 111 110 112]
+  [109 109 109 ... 114 113 107]]]
+Scale: 4.973901748657227 | Zero Point: 111
+
+Layer: distilbert.transformer.layer.0.ffn.dropout
+Quantized Activation: [[[110 111 112 ... 112 112 110]
+  [109 111 107 ... 114 106 105]
+  [111 108 116 ... 108 112 112]
+  ...
+  [111 113 115 ... 108 109 115]
+  [110 110 111 ... 111 110 112]
+  [109 109 109 ... 114 113 107]]]
+Scale: 4.973901748657227 | Zero Point: 111
+
+Layer: distilbert.transformer.layer.0.ffn
+Quantized Activation: [[[110 111 112 ... 112 112 110]
+  [109 111 107 ... 114 106 105]
+  [111 108 116 ... 108 112 112]
+  ...
+  [111 113 115 ... 108 109 115]
+  [110 110 111 ... 111 110 112]
+  [109 109 109 ... 114 113 107]]]
+Scale: 4.973901748657227 | Zero Point: 111
+
+Layer: distilbert.transformer.layer.0.output_layer_norm
+Quantized Activation: [[[73 71 72 ... 74 73 73]
+  [82 79 54 ... 83 61 38]
+  [69 72 88 ... 70 69 73]
+  ...
+  [82 85 97 ... 59 72 81]
+  [79 68 73 ... 71 71 60]
+  [70 69 73 ... 69 75 66]]]
+Scale: 21.076871871948242 | Zero Point: 73
+
+Layer: distilbert.transformer.layer.0 | Output Index: 0
+Quantized Activation: [[[73 71 72 ... 74 73 73]
+  [82 79 54 ... 83 61 38]
+  [69 72 88 ... 70 69 73]
+  ...
+  [82 85 97 ... 59 72 81]
+  [79 68 73 ... 71 71 60]
+  [70 69 73 ... 69 75 66]]]
+Scale: 21.076871871948242 | Zero Point: 73
+
+Layer: distilbert.transformer.layer.1.attention.q_lin
+Quantized Activation: [[[ 11  20   5 ... -22  11  -4]
+  [-18  19  26 ...  18 -10  -8]
+  [-78 -43 -12 ...   0 -25  10]
+  ...
+  [ 23 -95  12 ... -25  26  -9]
+  [-26 -54 -30 ... -18   8 -15]
+  [ 21  -1   9 ... -22  32   4]]]
+Scale: 16.6553955078125 | Zero Point: 2
+
+Layer: distilbert.transformer.layer.1.attention.k_lin
+Quantized Activation: [[[ 35  52  51 ...  -5  41  13]
+  [ 47  51  10 ...  10  12  29]
+  [ 23  26 -18 ...  22   6  15]
+  ...
+  [ 46 -50 -21 ...  26  40   0]
+  [ 55 -34 -15 ...  14  55   4]
+  [ 30  33  42 ...   9  46   8]]]
+Scale: 16.219762802124023 | Zero Point: 17
+
+Layer: distilbert.transformer.layer.1.attention.v_lin
+Quantized Activation: [[[-20 -22 -12 ... -24 -27 -23]
+  [-25 -19  -5 ... -59 -41 -11]
+  [ -3 -11   2 ... -86 -53 -40]
+  ...
+  [-52 -28 -52 ... -60 -60 -36]
+  [-38 -22 -10 ...  14 -32 -66]
+  [ -2 -21 -11 ... -26 -39 -26]]]
+Scale: 30.816669464111328 | Zero Point: -25
+
+Layer: distilbert.transformer.layer.1.attention.out_lin
+Quantized Activation: [[[64 63 66 ... 66 66 64]
+  [66 65 67 ... 67 67 59]
+  [61 70 66 ... 71 66 63]
+  ...
+  [68 59 72 ... 65 70 62]
+  [64 64 66 ... 65 66 63]
+  [67 67 64 ... 61 65 60]]]
+Scale: 9.204187393188477 | Zero Point: 64
+
+Layer: distilbert.transformer.layer.1.attention | Output Index: 0
+Quantized Activation: [[[64 63 66 ... 66 66 64]
+  [66 65 67 ... 67 67 59]
+  [61 70 66 ... 71 66 63]
+  ...
+  [68 59 72 ... 65 70 62]
+  [64 64 66 ... 65 66 63]
+  [67 67 64 ... 61 65 60]]]
+Scale: 9.204187393188477 | Zero Point: 64
+
+Layer: distilbert.transformer.layer.1.sa_layer_norm
+Quantized Activation: [[[111 109 110 ... 112 111 110]
+  [114 113 107 ... 113 109  99]
+  [108 113 113 ... 113 110 109]
+  ...
+  [116 111 118 ... 108 112 111]
+  [113 110 110 ... 110 110 107]
+  [111 111 109 ... 109 110 108]]]
+Scale: 5.085433006286621 | Zero Point: 110
+
+Layer: distilbert.transformer.layer.1.ffn.lin1
+Quantized Activation: [[[-46 -40 -49 ... -47 -52 -47]
+  [-45 -45 -49 ... -42 -39 -37]
+  [-45 -48 -45 ... -44 -46 -52]
+  ...
+  [-44 -47 -46 ... -46 -55 -47]
+  [-50 -47 -45 ... -45 -53 -48]
+  [-49 -46 -49 ... -48 -52 -50]]]
+Scale: 4.351469039916992 | Zero Point: -39
+
+Layer: distilbert.transformer.layer.1.ffn.activation
+Quantized Activation: [[[-128 -128 -127 ... -127 -127 -127]
+  [-128 -128 -127 ... -128 -127 -125]
+  [-128 -127 -128 ... -128 -128 -127]
+  ...
+  [-128 -127 -128 ... -128 -127 -127]
+  [-127 -127 -128 ... -128 -127 -127]
+  [-127 -128 -127 ... -127 -127 -127]]]
+Scale: 6.672979831695557 | Zero Point: -127
+
+Layer: distilbert.transformer.layer.1.ffn.lin2
+Quantized Activation: [[[124 124 124 ... 123 124 125]
+  [124 124 125 ... 126 124 124]
+  [123 124 125 ... 124 123 125]
+  ...
+  [124 123 124 ... 124 124 124]
+  [124 124 124 ... 123 124 124]
+  [124 124 124 ... 124 124 124]]]
+Scale: 1.2766492366790771 | Zero Point: 124
+
+Layer: distilbert.transformer.layer.1.ffn.dropout
+Quantized Activation: [[[124 124 124 ... 123 124 125]
+  [124 124 125 ... 126 124 124]
+  [123 124 125 ... 124 123 125]
+  ...
+  [124 123 124 ... 124 124 124]
+  [124 124 124 ... 123 124 124]
+  [124 124 124 ... 124 124 124]]]
+Scale: 1.2766492366790771 | Zero Point: 124
+
+Layer: distilbert.transformer.layer.1.ffn
+Quantized Activation: [[[124 124 124 ... 123 124 125]
+  [124 124 125 ... 126 124 124]
+  [123 124 125 ... 124 123 125]
+  ...
+  [124 123 124 ... 124 124 124]
+  [124 124 124 ... 123 124 124]
+  [124 124 124 ... 124 124 124]]]
+Scale: 1.2766492366790771 | Zero Point: 124
+
+Layer: distilbert.transformer.layer.1.output_layer_norm
+Quantized Activation: [[[ 84  82  87 ...  85  88  91]
+  [ 93  92  86 ... 105  80  61]
+  [ 76  92  99 ...  92  79  89]
+  ...
+  [ 95  82 106 ...  79  88  85]
+  [ 91  83  85 ...  81  86  78]
+  [ 85  85  87 ...  86  86  85]]]
+Scale: 15.122823715209961 | Zero Point: 86
+
+Layer: distilbert.transformer.layer.1 | Output Index: 0
+Quantized Activation: [[[ 84  82  87 ...  85  88  91]
+  [ 93  92  86 ... 105  80  61]
+  [ 76  92  99 ...  92  79  89]
+  ...
+  [ 95  82 106 ...  79  88  85]
+  [ 91  83  85 ...  81  86  78]
+  [ 85  85  87 ...  86  86  85]]]
+Scale: 15.122823715209961 | Zero Point: 86
+
+Layer: distilbert.transformer.layer.2.attention.q_lin
+Quantized Activation: [[[-32  12 -17 ...  17  -4  24]
+  [  8  -4   6 ... -18  12  33]
+  [ 17  10  13 ...   5  13  34]
+  ...
+  [ 21  28  59 ... -52  11 -21]
+  [ 25   5  52 ...  17  -2   6]
+  [ 28 -26 -38 ...  12 -10  59]]]
+Scale: 22.281736373901367 | Zero Point: 2
+
+Layer: distilbert.transformer.layer.2.attention.k_lin
+Quantized Activation: [[[  1  19   4 ...  11   8  22]
+  [ -4  48   4 ...  38  -3  10]
+  [  6  45  19 ...  -2   1  47]
+  ...
+  [ 54  48  70 ... -44  31  -3]
+  [ 31  27  67 ... -32   6  -3]
+  [ 16  26  14 ...  20  -3  52]]]
+Scale: 20.827280044555664 | Zero Point: 9
+
+Layer: distilbert.transformer.layer.2.attention.v_lin
+Quantized Activation: [[[-29 -38 -22 ...  -3  -3 -26]
+  [-57   1  11 ...  -9 -15 -15]
+  [-36 -40  -1 ...  16  -4   9]
+  ...
+  [-54 -15   3 ... -39 -38 -25]
+  [-36 -44  -7 ...  16 -36 -14]
+  [-26 -23 -22 ... -21 -22 -24]]]
+Scale: 32.06855010986328 | Zero Point: -22
+
+Layer: distilbert.transformer.layer.2.attention.out_lin
+Quantized Activation: [[[56 56 51 ... 52 47 44]
+  [50 55 52 ... 45 53 36]
+  [48 59 58 ... 59 64 42]
+  ...
+  [74 44 61 ... 50 53 43]
+  [56 48 67 ... 39 54 42]
+  [50 53 54 ... 47 51 52]]]
+Scale: 25.721975326538086 | Zero Point: 51
+
+Layer: distilbert.transformer.layer.2.attention | Output Index: 0
+Quantized Activation: [[[56 56 51 ... 52 47 44]
+  [50 55 52 ... 45 53 36]
+  [48 59 58 ... 59 64 42]
+  ...
+  [74 44 61 ... 50 53 43]
+  [56 48 67 ... 39 54 42]
+  [50 53 54 ... 47 51 52]]]
+Scale: 25.721975326538086 | Zero Point: 51
+
+Layer: distilbert.transformer.layer.2.sa_layer_norm
+Quantized Activation: [[[119 119 119 ... 119 119 119]
+  [120 120 119 ... 121 119 114]
+  [117 121 121 ... 120 119 119]
+  ...
+  [122 118 122 ... 118 119 118]
+  [120 118 120 ... 118 119 117]
+  [119 119 120 ... 118 119 119]]]
+Scale: 2.3636419773101807 | Zero Point: 119
+
+Layer: distilbert.transformer.layer.2.ffn.lin1
+Quantized Activation: [[[51 51 49 ... 52 45 46]
+  [48 49 49 ... 49 43 46]
+  [52 49 46 ... 50 46 44]
+  ...
+  [48 48 51 ... 51 49 48]
+  [50 46 58 ... 52 50 46]
+  [40 41 32 ... 35 34 34]]]
+Scale: 3.3399314880371094 | Zero Point: 53
+
+Layer: distilbert.transformer.layer.2.ffn.activation
+Quantized Activation: [[[ 127  127  127 ... -128 -127 -128]
+  [-128 -128  127 ... -128 -127 -127]
+  [ 127  127 -127 ...  127 -128 -127]
+  ...
+  [-128 -128  127 ...  127  127 -128]
+  [ 127 -128 -111 ... -128  127 -127]
+  [-127 -127 -127 ... -127 -127 -127]]]
+Scale: 11.472049713134766 | Zero Point: -127
+
+Layer: distilbert.transformer.layer.2.ffn.lin2
+Quantized Activation: [[[124 124 124 ... 124 125 125]
+  [124 124 124 ... 125 124 124]
+  [123 123 124 ... 124 124 125]
+  ...
+  [124 124 124 ... 124 124 124]
+  [124 125 124 ... 124 124 124]
+  [124 124 124 ... 124 124 124]]]
+Scale: 1.1138492822647095 | Zero Point: 124
+
+Layer: distilbert.transformer.layer.2.ffn.dropout
+Quantized Activation: [[[124 124 124 ... 124 125 125]
+  [124 124 124 ... 125 124 124]
+  [123 123 124 ... 124 124 125]
+  ...
+  [124 124 124 ... 124 124 124]
+  [124 125 124 ... 124 124 124]
+  [124 124 124 ... 124 124 124]]]
+Scale: 1.1138492822647095 | Zero Point: 124
+
+Layer: distilbert.transformer.layer.2.ffn
+Quantized Activation: [[[124 124 124 ... 124 125 125]
+  [124 124 124 ... 125 124 124]
+  [123 123 124 ... 124 124 125]
+  ...
+  [124 124 124 ... 124 124 124]
+  [124 125 124 ... 124 124 124]
+  [124 124 124 ... 124 124 124]]]
+Scale: 1.1138492822647095 | Zero Point: 124
+
+Layer: distilbert.transformer.layer.2.output_layer_norm
+Quantized Activation: [[[84 79 83 ... 78 87 87]
+  [84 89 77 ... 92 77 55]
+  [63 76 92 ... 83 84 90]
+  ...
+  [96 72 90 ... 77 83 82]
+  [88 84 83 ... 76 79 73]
+  [81 81 81 ... 81 81 81]]]
+Scale: 15.70941162109375 | Zero Point: 81
+
+Layer: distilbert.transformer.layer.2 | Output Index: 0
+Quantized Activation: [[[84 79 83 ... 78 87 87]
+  [84 89 77 ... 92 77 55]
+  [63 76 92 ... 83 84 90]
+  ...
+  [96 72 90 ... 77 83 82]
+  [88 84 83 ... 76 79 73]
+  [81 81 81 ... 81 81 81]]]
+Scale: 15.70941162109375 | Zero Point: 81
+
+Layer: distilbert.transformer.layer.3.attention.q_lin
+Quantized Activation: [[[  2   8  54 ...   6  19  -7]
+  [-11 -31  29 ...   1  44  -2]
+  [  0  24  33 ...   3  37  -8]
+  ...
+  [ -3  -8  79 ...  27  10  43]
+  [-15  -2  53 ...  17 -24   6]
+  [ 48  21  81 ...   1   6  10]]]
+Scale: 19.804344177246094 | Zero Point: 15
+
+Layer: distilbert.transformer.layer.3.attention.k_lin
+Quantized Activation: [[[-11 -28  26 ...   0  27 -19]
+  [-14 -19  -2 ... -14   0  -6]
+  [  4 -26 -26 ... -17   9 -15]
+  ...
+  [  3  23 -19 ...  11 -31   0]
+  [  3  -2  15 ... -25 -27   2]
+  [ -2  -4  94 ... -22  15  -4]]]
+Scale: 18.862199783325195 | Zero Point: 4
+
+Layer: distilbert.transformer.layer.3.attention.v_lin
+Quantized Activation: [[[ -9  23  23 ... -12  -5  17]
+  [-40  13  -8 ...  10  30   2]
+  [ 14  14 -14 ...   8  -4  -7]
+  ...
+  [ -6  -7  10 ...  16  24  10]
+  [-12 -19  26 ...  46  32  19]
+  [  7  13  11 ...  11  12  13]]]
+Scale: 32.77261734008789 | Zero Point: 12
+
+Layer: distilbert.transformer.layer.3.attention.out_lin
+Quantized Activation: [[[42 38 35 ... 42 44 36]
+  [47 34 18 ... 62 55 -5]
+  [43 33 14 ... 65 56  5]
+  ...
+  [50 40 13 ... 44 56 41]
+  [43 34 30 ... 41 51 35]
+  [41 40 40 ... 35 37 40]]]
+Scale: 22.144691467285156 | Zero Point: 40
+
+Layer: distilbert.transformer.layer.3.attention | Output Index: 0
+Quantized Activation: [[[42 38 35 ... 42 44 36]
+  [47 34 18 ... 62 55 -5]
+  [43 33 14 ... 65 56  5]
+  ...
+  [50 40 13 ... 44 56 41]
+  [43 34 30 ... 41 51 35]
+  [41 40 40 ... 35 37 40]]]
+Scale: 22.144691467285156 | Zero Point: 40
+
+Layer: distilbert.transformer.layer.3.sa_layer_norm
+Quantized Activation: [[[120 119 119 ... 119 120 120]
+  [120 119 118 ... 121 120 113]
+  [117 118 119 ... 121 120 117]
+  ...
+  [122 118 118 ... 119 120 119]
+  [120 119 119 ... 119 120 117]
+  [119 119 119 ... 119 119 119]]]
+Scale: 2.620396614074707 | Zero Point: 119
+
+Layer: distilbert.transformer.layer.3.ffn.lin1
+Quantized Activation: [[[65 69 80 ... 75 62 61]
+  [46 74 87 ... 75 81 79]
+  [46 76 82 ... 73 81 77]
+  ...
+  [62 55 54 ... 79 49 79]
+  [62 57 62 ... 84 57 77]
+  [53 52 57 ... 55 33 54]]]
+Scale: 11.63550853729248 | Zero Point: 84
+
+Layer: distilbert.transformer.layer.3.ffn.activation
+Quantized Activation: [[[-123 -126 -125 ... -128 -121 -120]
+  [-117 -128 -107 ... -128 -124 -127]
+  [-117 -128 -122 ... -128 -124 -128]
+  ...
+  [-121 -118 -118 ... -126 -117 -126]
+  [-121 -119 -121 ... -116 -118 -128]
+  [-118 -118 -119 ... -118 -117 -118]]]
+Scale: 66.79454803466797 | Zero Point: -117
+
+Layer: distilbert.transformer.layer.3.ffn.lin2
+Quantized Activation: [[[ 92  87  86 ...  96 100  97]
+  [107  97  97 ... 104 108  92]
+  [102  93  93 ... 109 105  96]
+  ...
+  [ 93 101  90 ...  96  97  94]
+  [ 89  98  89 ...  90  96  89]
+  [ 97  98  97 ...  95  90  98]]]
+Scale: 15.191195487976074 | Zero Point: 95
+
+Layer: distilbert.transformer.layer.3.ffn.dropout
+Quantized Activation: [[[ 92  87  86 ...  96 100  97]
+  [107  97  97 ... 104 108  92]
+  [102  93  93 ... 109 105  96]
+  ...
+  [ 93 101  90 ...  96  97  94]
+  [ 89  98  89 ...  90  96  89]
+  [ 97  98  97 ...  95  90  98]]]
+Scale: 15.191195487976074 | Zero Point: 95
+
+Layer: distilbert.transformer.layer.3.ffn
+Quantized Activation: [[[ 92  87  86 ...  96 100  97]
+  [107  97  97 ... 104 108  92]
+  [102  93  93 ... 109 105  96]
+  ...
+  [ 93 101  90 ...  96  97  94]
+  [ 89  98  89 ...  90  96  89]
+  [ 97  98  97 ...  95  90  98]]]
+Scale: 15.191195487976074 | Zero Point: 95
+
+Layer: distilbert.transformer.layer.3.output_layer_norm
+Quantized Activation: [[[ 86  78  79 ...  85  94  90]
+  [ 98  88  80 ...  99  97  57]
+  [ 82  79  82 ... 101  98  78]
+  ...
+  [ 97  86  77 ...  86  94  86]
+  [ 86  87  79 ...  80  88  72]
+  [ 85  85  85 ...  84  83  86]]]
+Scale: 15.8884859085083 | Zero Point: 85
+
+Layer: distilbert.transformer.layer.3 | Output Index: 0
+Quantized Activation: [[[ 86  78  79 ...  85  94  90]
+  [ 98  88  80 ...  99  97  57]
+  [ 82  79  82 ... 101  98  78]
+  ...
+  [ 97  86  77 ...  86  94  86]
+  [ 86  87  79 ...  80  88  72]
+  [ 85  85  85 ...  84  83  86]]]
+Scale: 15.8884859085083 | Zero Point: 85
+
+Layer: distilbert.transformer.layer.4.attention.q_lin
+Quantized Activation: [[[  4  33  -4 ...   5  17  27]
+  [ -5  27  21 ...  28  28  24]
+  [  3  38   1 ...  28  25  28]
+  ...
+  [ 16  31  43 ...  24   2   9]
+  [ 15  23  61 ...   6  17  18]
+  [ -5  27 -24 ...   2   9   8]]]
+Scale: 21.79218101501465 | Zero Point: 7
+
+Layer: distilbert.transformer.layer.4.attention.k_lin
+Quantized Activation: [[[ -8  10  48 ...  -9  26  16]
+  [-29  27  19 ...  15  -6  31]
+  [-29  33  10 ... -20 -11  -4]
+  ...
+  [  2   5  58 ...   4  32   5]
+  [-23  16  43 ...  20  42  23]
+  [-29  51   6 ... -13  14  13]]]
+Scale: 22.935287475585938 | Zero Point: 3
+
+Layer: distilbert.transformer.layer.4.attention.v_lin
+Quantized Activation: [[[-124   21   28 ...   20    9    5]
+  [ -10   -4  -10 ...   47  -14   53]
+  [   1   -1   19 ...   44   10   54]
+  ...
+  [  12   21   -4 ...   29    3    2]
+  [  14    2   13 ...   21   26    2]
+  [  -2    6    5 ...    4    3    9]]]
+Scale: 32.58443832397461 | Zero Point: 5
+
+Layer: distilbert.transformer.layer.4.attention.out_lin
+Quantized Activation: [[[42 44 26 ... 47 31 40]
+  [66 43  8 ... 48 40 32]
+  [69 41  3 ... 46 46 30]
+  ...
+  [44 53 21 ... 64 30 39]
+  [44 51 24 ... 70 28 41]
+  [42 42 30 ... 38 36 36]]]
+Scale: 23.22922134399414 | Zero Point: 33
+
+Layer: distilbert.transformer.layer.4.attention | Output Index: 0
+Quantized Activation: [[[42 44 26 ... 47 31 40]
+  [66 43  8 ... 48 40 32]
+  [69 41  3 ... 46 46 30]
+  ...
+  [44 53 21 ... 64 30 39]
+  [44 51 24 ... 70 28 41]
+  [42 42 30 ... 38 36 36]]]
+Scale: 23.22922134399414 | Zero Point: 33
+
+Layer: distilbert.transformer.layer.4.sa_layer_norm
+Quantized Activation: [[[108 106 103 ... 108 108 109]
+  [113 108 102 ... 110 109  99]
+  [110 106 102 ... 110 110 104]
+  ...
+  [111 110 102 ... 111 107 107]
+  [108 110 103 ... 110 106 104]
+  [109 109 106 ... 107 106 107]]]
+Scale: 5.5209455490112305 | Zero Point: 106
+
+Layer: distilbert.transformer.layer.4.ffn.lin1
+Quantized Activation: [[[15 14 12 ... 10 17 15]
+  [14 19  6 ...  7 14 11]
+  [15 20  6 ...  7 15 11]
+  ...
+  [15 16 11 ... 11 16 11]
+  [11 20  6 ...  7 14 11]
+  [11 14 12 ...  9 18  8]]]
+Scale: 4.462116241455078 | Zero Point: 18
+
+Layer: distilbert.transformer.layer.4.ffn.activation
+Quantized Activation: [[[ 127  127 -128 ... -128 -128  127]
+  [ 127 -125 -127 ... -127  127 -128]
+  [ 127 -124 -127 ... -127  127 -128]
+  ...
+  [ 127  127 -128 ... -128  127 -128]
+  [-128 -123 -127 ... -127  127 -128]
+  [-128  127 -128 ... -128 -127 -127]]]
+Scale: 10.408361434936523 | Zero Point: -127
+
+Layer: distilbert.transformer.layer.4.ffn.lin2
+Quantized Activation: [[[46 46 47 ... 47 46 46]
+  [46 46 46 ... 46 47 46]
+  [46 46 46 ... 46 47 46]
+  ...
+  [46 46 46 ... 46 46 46]
+  [46 46 46 ... 46 46 46]
+  [47 46 46 ... 47 46 46]]]
+Scale: 0.7311184406280518 | Zero Point: 46
+
+Layer: distilbert.transformer.layer.4.ffn.dropout
+Quantized Activation: [[[46 46 47 ... 47 46 46]
+  [46 46 46 ... 46 47 46]
+  [46 46 46 ... 46 47 46]
+  ...
+  [46 46 46 ... 46 46 46]
+  [46 46 46 ... 46 46 46]
+  [47 46 46 ... 47 46 46]]]
+Scale: 0.7311184406280518 | Zero Point: 46
+
+Layer: distilbert.transformer.layer.4.ffn
+Quantized Activation: [[[46 46 47 ... 47 46 46]
+  [46 46 46 ... 46 47 46]
+  [46 46 46 ... 46 47 46]
+  ...
+  [46 46 46 ... 46 46 46]
+  [46 46 46 ... 46 46 46]
+  [47 46 46 ... 47 46 46]]]
+Scale: 0.7311184406280518 | Zero Point: 46
+
+Layer: distilbert.transformer.layer.4.output_layer_norm
+Quantized Activation: [[[74 68 70 ... 77 72 72]
+  [93 72 58 ... 84 96 60]
+  [85 66 59 ... 83 94 72]
+  ...
+  [88 84 62 ... 86 77 76]
+  [76 78 61 ... 81 65 64]
+  [72 71 70 ... 71 69 70]]]
+Scale: 16.98948097229004 | Zero Point: 70
+
+Layer: distilbert.transformer.layer.4 | Output Index: 0
+Quantized Activation: [[[74 68 70 ... 77 72 72]
+  [93 72 58 ... 84 96 60]
+  [85 66 59 ... 83 94 72]
+  ...
+  [88 84 62 ... 86 77 76]
+  [76 78 61 ... 81 65 64]
+  [72 71 70 ... 71 69 70]]]
+Scale: 16.98948097229004 | Zero Point: 70
+
+Layer: distilbert.transformer.layer.5.attention.q_lin
+Quantized Activation: [[[ -3  14  27 ...   2  14 -16]
+  [-20 -26  32 ...  10 -58 -51]
+  [-33 -19  27 ...  10 -48 -57]
+  ...
+  [ 31 -16   1 ...  53  -6 -18]
+  [ 21  -9  -7 ...  -2   4 -48]
+  [  8  15   9 ...   4  15 -12]]]
+Scale: 21.38677215576172 | Zero Point: -11
+
+Layer: distilbert.transformer.layer.5.attention.k_lin
+Quantized Activation: [[[  3 -10  -6 ...   0  -6  -4]
+  [  4  -7   4 ...   8   6 -88]
+  [  0  -7   0 ...  14  10 -93]
+  ...
+  [ -3 -21  -1 ...  -1 -16 -52]
+  [  2 -28  -4 ... -24   1 -36]
+  [  1   0   0 ...   5   5  20]]]
+Scale: 18.729000091552734 | Zero Point: 3
+
+Layer: distilbert.transformer.layer.5.attention.v_lin
+Quantized Activation: [[[  8  -2   8 ...  -1   7 -17]
+  [ 30 -24 -20 ...   5  38  12]
+  [-14   0 -20 ...   7  33  -4]
+  ...
+  [ 46 -80 -28 ...  -6  10   1]
+  [ 19 -47 -31 ... -18   5  29]
+  [ -6  -4  -5 ...  -5  -2  -7]]]
+Scale: 34.08661651611328 | Zero Point: -5
+
+Layer: distilbert.transformer.layer.5.attention.out_lin
+Quantized Activation: [[[ -80  -90  -88 ...  -86  -85  -86]
+  [ -80  -82  -79 ...  -84  -82  -80]
+  [ -78  -76  -76 ...  -85  -76  -79]
+  ...
+  [ -98  -88  -79 ... -111  -85  -86]
+  [ -98  -96  -95 ... -110  -94  -94]
+  [ -75  -83  -85 ...  -82  -91  -88]]]
+Scale: 20.309309005737305 | Zero Point: -84
+
+Layer: distilbert.transformer.layer.5.attention | Output Index: 0
+Quantized Activation: [[[ -80  -90  -88 ...  -86  -85  -86]
+  [ -80  -82  -79 ...  -84  -82  -80]
+  [ -78  -76  -76 ...  -85  -76  -79]
+  ...
+  [ -98  -88  -79 ... -111  -85  -86]
+  [ -98  -96  -95 ... -110  -94  -94]
+  [ -75  -83  -85 ...  -82  -91  -88]]]
+Scale: 20.309309005737305 | Zero Point: -84
+
+Layer: distilbert.transformer.layer.5.sa_layer_norm
+Quantized Activation: [[[-41 -51 -48 ... -43 -45 -46]
+  [-36 -44 -49 ... -41 -35 -48]
+  [-38 -45 -48 ... -42 -34 -43]
+  ...
+  [-44 -42 -47 ... -48 -44 -44]
+  [-48 -46 -52 ... -50 -49 -50]
+  [-36 -44 -47 ... -43 -52 -50]]]
+Scale: 7.286558628082275 | Zero Point: -46
+
+Layer: distilbert.transformer.layer.5.ffn.lin1
+Quantized Activation: [[[ 24  16  38 ...  35  -3  20]
+  [ 35   8  10 ... -15  -6  12]
+  [ 28  16  12 ... -13  -5  11]
+  ...
+  [ 12  17  15 ... -24   4 -14]
+  [  9   6  24 ...  -2   8 -23]
+  [ 22  39  21 ...  41  41  36]]]
+Scale: 17.911020278930664 | Zero Point: 15
+
+Layer: distilbert.transformer.layer.5.ffn.activation
+Quantized Activation: [[[-108 -121  -75 ...  -84 -128 -115]
+  [ -84 -127 -127 ... -125 -128 -125]
+  [-100 -121 -125 ... -126 -128 -126]
+  ...
+  [-124 -120 -122 ... -123  127 -125]
+  [-127 -128 -108 ...  127 -127 -123]
+  [-111  -73 -114 ...  -67  -68  -80]]]
+Scale: 39.96638107299805 | Zero Point: -122
+
+Layer: distilbert.transformer.layer.5.ffn.lin2
+Quantized Activation: [[[14 30 25 ... 43 39 37]
+  [29  6 35 ... 48 44 40]
+  [39 10 32 ... 46 34 44]
+  ...
+  [21 22 29 ... 27 36 21]
+  [ 9 31 17 ... 31 22  5]
+  [12 47 39 ... 42 36 29]]]
+Scale: 11.986467361450195 | Zero Point: 25
+
+Layer: distilbert.transformer.layer.5.ffn.dropout
+Quantized Activation: [[[14 30 25 ... 43 39 37]
+  [29  6 35 ... 48 44 40]
+  [39 10 32 ... 46 34 44]
+  ...
+  [21 22 29 ... 27 36 21]
+  [ 9 31 17 ... 31 22  5]
+  [12 47 39 ... 42 36 29]]]
+Scale: 11.986467361450195 | Zero Point: 25
+
+Layer: distilbert.transformer.layer.5.ffn
+Quantized Activation: [[[14 30 25 ... 43 39 37]
+  [29  6 35 ... 48 44 40]
+  [39 10 32 ... 46 34 44]
+  ...
+  [21 22 29 ... 27 36 21]
+  [ 9 31 17 ... 31 22  5]
+  [12 47 39 ... 42 36 29]]]
+Scale: 11.986467361450195 | Zero Point: 25
+
+Layer: distilbert.transformer.layer.5.output_layer_norm
+Quantized Activation: [[[ 11  11  15 ...  36  31  26]
+  [ 39  -4  24 ...  51  61  29]
+  [ 50  -2  23 ...  51  54  46]
+  ...
+  [ 11  18  20 ...  12  37  13]
+  [-19  23 -12 ...  15   2 -29]
+  [ 17  48  34 ...  41  18  11]]]
+Scale: 41.529998779296875 | Zero Point: 14
+
+Layer: distilbert.transformer.layer.5 | Output Index: 0
+Quantized Activation: [[[ 11  11  15 ...  36  31  26]
+  [ 39  -4  24 ...  51  61  29]
+  [ 50  -2  23 ...  51  54  46]
+  ...
+  [ 11  18  20 ...  12  37  13]
+  [-19  23 -12 ...  15   2 -29]
+  [ 17  48  34 ...  41  18  11]]]
+Scale: 41.529998779296875 | Zero Point: 14
+
+Layer: dropout
+Quantized Activation: [[[ 11  11  15 ...  36  31  26]
+  [ 39  -4  24 ...  51  61  29]
+  [ 50  -2  23 ...  51  54  46]
+  ...
+  [ 11  18  20 ...  12  37  13]
+  [-19  23 -12 ...  15   2 -29]
+  [ 17  48  34 ...  41  18  11]]]
+Scale: 41.529998779296875 | Zero Point: 14
+
+Layer: qa_outputs
+Quantized Activation: [[[ -84  -22]
+  [ -85  -82]
+  [-116 -115]
+  [-102 -117]
+  [-107  -90]
+  [ 127 -115]
+  [ -88  -21]
+  [ -57  -82]
+  [ -64 -104]
+  [ -98 -104]
+  [-116 -100]
+  [-109 -120]
+  [ -80  -92]
+  [-117  -75]
+  [ -86 -108]
+  [ -90  -93]
+  [ -72 -120]
+  [ -51 -109]
+  [ -93 -117]
+  [ -65  -31]
+  [ -98  -83]
+  [ -44 -102]
+  [ -96  -93]
+  [-114 -100]
+  [ -44  -44]
+  [ -86  -16]
+  [  76  -47]
+  [   7  -43]
+  [ 104  -24]
+  [  81   41]
+  [ -33  -34]
+  [  63  -19]
+  [  41  126]
+  [ -88  -21]]]
+Scale: 14.528614044189453 | Zero Point: -19
+
